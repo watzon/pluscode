@@ -42,5 +42,3 @@ module PlusCode
             nil, nil, nil, nil,   8, nil, nil,   9,  10,  11, nil,  12, nil, nil,  13, nil, nil,  14,  15,
              16, nil, nil, nil,  17,  18,  19]
 end
-
-puts PlusCode.encode(33.8120918, -117.9211629, 4)
