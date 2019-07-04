@@ -37,9 +37,9 @@ puts code
 If you want a shorter or longer code you can also supply a code length as the third parameter:
 
 ```crystal
-code = PlusCode.encode(33.8120918, -117.9211629, 2)
+code = PlusCode.encode(33.8120918, -117.9211629, 4)
 puts code
-# => 85000000+
+# => 85540000+
 
 code = PlusCode.encode(33.8120918, -117.9211629, 15)
 puts code

@@ -43,4 +43,4 @@ module PlusCode
              16, nil, nil, nil,  17,  18,  19]
 end
 
-puts PlusCode.shorten("8554R36H+RG", 33.8339114, -117.985578)
+puts PlusCode.encode(33.8120918, -117.9211629, 4)
